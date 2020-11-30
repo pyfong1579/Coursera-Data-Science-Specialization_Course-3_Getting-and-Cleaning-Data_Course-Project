@@ -2,7 +2,7 @@ for descriptions of the original datasets please refer to README.TXT in /UCI HAR
 
 Descriptions of the manipulated final datasets variables as follows:-
   1.  merged_clean_data.txt contains variable required for project
-    var:  subject - individual volunteers that took part in the study (id 1:24 type:(INT))
+    var:  subject - individual volunteers that took part in the study (id 1:30 type:(INT))
           activity - descriptive label for actions captured for the study (6 labels type:(CHR)
           <mean and std. measurements> original names with "()" removed. 66 variables
           
