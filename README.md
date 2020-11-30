@@ -6,6 +6,7 @@ Repository contains:-
   2. Subdirectory "UCI HAR Dataset" containing the original datasets
   3. Merged data set "merged_clean_data.txt"
   4. Summary Dataset "averaged_data_by_activity_and_subject.txt"
+  5. Codebook "CodeBook.md" containing description of variables to be found in final datasets.
 
 The script run_analysis.R uses the dplyr package to executeand meet the requirements of the project assignment.
 Details are included in script comments.
