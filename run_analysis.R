@@ -53,4 +53,4 @@ main_sum <- main %>%
   summarize_all(mean) %>%
   rename_with(.fn = ~ paste0("Avg-", .x),.cols=!(1:2))
 
-write.table(main_sum, "averaged_data_by_activity_and_subject.txt")
+write.table(main_sum, "averaged_data_by_activity_and_subject.txt",row.names = FALSE)
